@@ -1,6 +1,6 @@
 import { Experience, PersonalInfo, SkillCategory } from './types';
 
-export const PROFILE_IMAGE = (`/public/profile.jpg`);
+export const PROFILE_IMAGE = ("./profile.jpg");
 
 export const PERSONAL_INFO: PersonalInfo = {
   name: "Gaurav Bhole",
@@ -30,7 +30,7 @@ export const EXPERIENCES: Experience[] = [
     role: "Data Center Engineer",
     company: "Wipro PVT LTD",
     period: "Jan-2024 TO May-2026",
-    location: "Mundra, Gujarat",
+    location: "Pune, Mumbai",
     responsibilities: [
       "Manage all Hardware Equipments (Servers, Desktop, Laptops, IP Phones)",
       "VMware Installation, ESXI Configuration",
