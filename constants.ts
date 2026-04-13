@@ -14,7 +14,7 @@ export const PERSONAL_INFO: PersonalInfo = {
     {
       degree: "Diploma in Electronics & Telecommunications",
       institution: "Institute of Management and Engineering",
-      year: "2015 – 2018"
+      year: "2015 – 2018 (66.50%)"
     },
     {
       degree: "Industrial Training Institute in Electronics",
