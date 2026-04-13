@@ -7,7 +7,7 @@ export const PERSONAL_INFO: PersonalInfo = {
   title: "Data Center Engineer",
   email: "gaurav.bhole8@outlook.com",
   phone: "+91 8446419217",
-  address: "Pune, Mumbai India",
+  address: "Mundra, Gujarat, India (Mundra Port)",
   objective: "Hey, My Name Is Gaurav Bhole, I’m on a journey to find something different in my business, and my work, I think all the knowledge, all the skill are not enough with me, trying to improve my ability is my first goal, and I am living for it, I am glad you found me",
   languages: ["English", "Hindi", "Marathi", "Gujarati"],
   education: [
@@ -29,7 +29,7 @@ export const EXPERIENCES: Experience[] = [
     id: "wipro",
     role: "Data Center Engineer",
     company: "Wipro PVT LTD",
-    period: "Jan-2024 TO May-2026",
+    period: "Jan-2024 TO Till Date",
     location: "Pune, Mumbai",
     responsibilities: [
       "Manage all Hardware Equipments (Servers, Desktop, Laptops, IP Phones)",
@@ -156,6 +156,8 @@ export const SKILLS: SkillCategory[] = [
       "Service Now (Ticketing)",
       "iLO / iDRAC / ESXi Console",
       "Software Databases Knowledge",
+      "Linux Development",
+      "Red hat Working Programing",
       "Linux Programming"
     ]
   }

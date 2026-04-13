@@ -119,8 +119,9 @@ const HeroSection: React.FC = () => {
               Contact Me
             </a>
             <a
-              href="/Gaurav_Bhole_CV.pdf"
-              download="Gaurav_Bhole_CV.pdf"
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-md font-medium transition flex items-center gap-2"
             >
               <Download size={18} />
