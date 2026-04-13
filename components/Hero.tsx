@@ -48,8 +48,8 @@ const Hero: React.FC = () => {
                 Hire Me
               </a>
               <a
-                href="/Gaurav_Bhole_CV.pdf"
-                download="Gaurav_Bhole_CV.pdf"
+                href="/Gaurav Bhole (2).pdf"
+                download="Gaurav Bhole (2).pdf"
                 className="bg-transparent border border-slate-300 active:bg-slate-200 hover:bg-slate-100 text-slate-700 font-bold py-3 px-8 rounded-full flex items-center gap-2 transition"
               >
                 <Download size={18} />
