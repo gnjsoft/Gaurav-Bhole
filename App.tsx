@@ -122,6 +122,7 @@ const HeroSection: React.FC = () => {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              download="Gaurav_Bhole_CV.pdf"
               className="px-8 py-3 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-md font-medium transition flex items-center gap-2"
             >
               <Download size={18} />
