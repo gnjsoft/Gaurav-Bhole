@@ -2,6 +2,8 @@ import { Experience, PersonalInfo, SkillCategory } from './types';
 
 export const PROFILE_IMAGE = ("https://image2url.com/r2/default/images/1775928266312-afe6200a-71bf-44dd-badb-519b2b0230a4.jpg");
 
+export const RESUME_PATH = "/Gaurav_Bhole_Resume.pdf";
+
 export const PERSONAL_INFO: PersonalInfo = {
   name: "Gaurav Bhole",
   title: "Data Center Engineer",

@@ -6,7 +6,7 @@ import {
   GraduationCap, Github, Linkedin, Menu
 } from 'lucide-react';
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
-import { PERSONAL_INFO, EXPERIENCES, SKILLS, PROFILE_IMAGE } from './constants';
+import { PERSONAL_INFO, EXPERIENCES, SKILLS, PROFILE_IMAGE, RESUME_PATH } from './constants';
 import { ChatSender, ChatMessage } from './types';
 import { generateChatResponse } from './services/geminiService';
 
@@ -119,7 +119,7 @@ const HeroSection: React.FC = () => {
               Contact Me
             </a>
             <a
-              href="/resume.pdf"
+              href={RESUME_PATH}
               target="_blank"
               rel="noopener noreferrer"
               download="Gaurav_Bhole_CV.pdf"

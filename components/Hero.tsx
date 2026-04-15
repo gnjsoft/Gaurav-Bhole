@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Download } from 'lucide-react';
-import { PERSONAL_INFO } from '../constants';
+import { PERSONAL_INFO, RESUME_PATH } from '../constants';
 
 const Hero: React.FC = () => {
   return (
@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
                 Hire Me
               </a>
               <a
-                href="/resume.pdf"
+                href={RESUME_PATH}
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Gaurav_Bhole_CV.pdf"
